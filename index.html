@@ -7,46 +7,67 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Roboto&family=Sriracha&display=swap" rel="stylesheet">
-    <title>Olá, sou o Kei</title>
+    <title>Portfólio | Kei Ogawa</title>
 </head>
 <body>
-    <header class="caixa-principal">
+    <main>
+    <header class="caixa-principal" id="home">
         <nav>
             <h2 class="portfolio">Port<span>folio</span></h2>
             <ul>
-                <li><a>Home</a></li>
-                <li><a>Sobre</a></li>
-                <li><a>Projetos</a></li>
-                <li><a>Fale comigo</a></li>
+                <li><a class="link-menu" href="#home">Home</a></li>
+                <li><a class="link-menu" href="#sobre">Sobre</a></li>
+                <li><a class="link-menu" href="#projetos">Projetos</a></li>
+                <li><a class="link-menu" href="#footer">Fale comigo</a></li>
             </ul>
         </nav>
 
-        <div>
-            <h1>Kei Ogawa</h1>
-            <h3>Programador Front End</h3>
-        </div>
+        <div class="container">
+            <div class="chamada-info">
+                <h1>Kei<span> Ogawa</span></h1>
+                <h3>Desenvolvedor Front End</h3> 
+            </div>
+            <div class="chamada-logo">
+                <img src="./src/img/banner.jpg" alt="Foto do Banner">
+            </div>
+            
     </header>
-    
-    <main>
-        <section id="home">
-            <!-- Conteúdo da Home -->
-        </section>
 
         <section id="sobre">
             <!-- Conteúdo Sobre Mim -->
+            <img src="./src/img/perfil.png" alt="Foto de perfil">
+            <div>
+                <h2>Sobre Mim</h2>
+                <p>Olá, sou Kei Ogawa, um entusiasta do desenvolvimento frontend dedicado a criar experiências digitais cativantes. Atualmente estudando React mas visando me tornar um Desenvolvedor FullStack futuramente.
+                <button>Entre em contato</button>
+
         </section>
 
         <section id="projetos">
             <!-- Conteúdo dos Projetos -->
-        </section>
+            <h2>Principais Projetos</h2>
 
-        <section id="contato">
-            <!-- Contato -->
+            <div class="projetos-cards">
+                <div class="card">
+                    <img src="./src/img/login.png" alt="Logo para login">
+                    <h5>Projeto Login</h5>
+                    <p>Projeto de design para página de Login responsiva</p>
+                    <a href="https://projeto-login-virid.vercel.app" target="_blank">Ver Projeto</a>
+                </div>
+
+                <div class="card">
+                    <img src="./src/img/gaming.png" alt="Logo para login">
+                    <h5>Projeto Pokedex</h5>
+                    <p>Projeto de teste para consumo de API</p>
+                    <a href="https://pokedex-psi-nine-98.vercel.app" target="_blank">Ver Projeto</a>
+                </div>
+        </div>
         </section>
     </main>
     
-    <footer>
+    <footer id="footer">
         <!-- Rodapé da Página -->
+        <h5>Site por Kei Ogawa</h5>
     </footer>
 </body>
 </html>
