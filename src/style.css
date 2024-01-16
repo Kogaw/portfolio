@@ -81,8 +81,10 @@ li:hover{
 
 
 .chamada-logo{
-    max-width: 500px;
+    max-width: 700px;
     min-width: 400px;
+    background-color: yellow;
+
 
 }
 .chamada-logo img{
