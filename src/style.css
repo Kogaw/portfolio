@@ -22,6 +22,16 @@ nav{
     padding-top: 25px;
 }
 
+nav a{
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav a:hover{
+  overflow: 0.7;
+}
+
+
 .portfolio{
     color: #ffffff;
     font-size: 35px;
