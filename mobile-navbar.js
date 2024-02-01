@@ -47,17 +47,19 @@ const mobileNavbar = new MobileNavbar(
 mobileNavbar.init()
 
 
-document.addEventListener("DOMContentLoaded", function () {
-  window.addEventListener("scroll", function () {
-      var navbar = document.getElementById("navbar");
+const navbar = document.getElementById("navbar")
+const topoNav = navbar.offsetTop
 
-      if (window.scrollY > 50) {
-          navbar.classList.add("navbar-scroll");
-      } else {
-          navbar.classList.remove("navbar-scroll");
-      }
-  });
-});
+window.onscroll = function(){
+  fixarMenuNoTopo()
+}
 
+function fixarMenuNoTopo(){
+  if(window.pageYOffset >= topoNav){
+    navbar.classList.add("fixoNoTopo")
+  } else {
+    navbar.classList.remove("fixoNoTopo")
+  }
+}
 
 

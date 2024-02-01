@@ -440,7 +440,9 @@ footer h5 {
     transform: rotate(45deg) translate(-5px, -7px);
   }
 
-  .navbar-scroll {
-    background-color: #555;
-    transition: background-color 0.3s ease;
+.fixoNoTopo{
+  position: fixed;
+  top: 0;
+  width: 100vw;
 }
+
