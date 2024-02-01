@@ -11,11 +11,17 @@
 </head>
 <body>
     <main>
-    <header class="caixa-principal" id="home">
+    <header class="caixa-principal" id="header">
         <nav>
-            <a href="/" class="logo">
+            <a href="#home" class="logo">
               <h2 class="portfolio">Port<span>folio</span></h2>
             </a>
+            <div class="mobile-menu">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+            </div>
+
             <ul class="nav-list">
                 <li><a class="link-menu" href="#home">Home</a></li>
                 <li><a class="link-menu" href="#sobre">Sobre</a></li>
@@ -24,7 +30,7 @@
             </ul>
         </nav>
 
-        <div class="container">
+        <div class="container"> 
             <div class="chamada-info">
                 <h1><span class="ola">OLÁ, EU SOU O KEI</span> <br>  <span class="dev">DESENVOLVEDOR <br> FRONT END </b></span></h1>
                 <div class="links">
@@ -50,7 +56,7 @@
 
         <section id="sobre">
             <!-- Conteúdo Sobre Mim -->
-            <img src="./src/img/perfil.png" alt="Foto de perfil">
+            <img class="foto-perfil" src="./src/img/perfil.png" alt="Foto de perfil">
             <div>
                 <h2>Sobre Mim</h2>
                 <p>Olá, sou Kei Ogawa, um entusiasta do desenvolvimento frontend dedicado a criar experiências digitais cativantes. Atualmente estudando React mas visando me tornar um Desenvolvedor FullStack futuramente.
@@ -74,8 +80,10 @@
                     <h5>Projeto Pokedex</h5>
                     <p>Projeto de teste para consumo de API</p>
                     <a href="https://pokedex-psi-nine-98.vercel.app" target="_blank">Ver Projeto</a>
-                </div>
+                </div>    
         </div>
+
+        
         </section>
     </main>
     
@@ -106,5 +114,6 @@
         </a>
       </div><br>
     </footer>
+    <script src="mobile-navbar.js"></script>
 </body>
 </html>
