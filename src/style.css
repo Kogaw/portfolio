@@ -50,6 +50,7 @@ nav a:hover{
   background: #fff;
   margin: 8px;
   transition: 0.3s;
+  overflow: hidden;
 
 }
 
@@ -66,7 +67,6 @@ nav a:hover{
 .nav-list{
   list-style: none;
   display: flex;
-  https://portfolio-kei-virid.vercel.app
 }
 
 .nav-list li{

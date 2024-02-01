@@ -20,7 +20,6 @@ class MobileNavbar {
   }
 
   handleClick() {
-    this.linkMenu.classList.toggle(this.activeClass)
     this.navList.classList.toggle(this.activeClass)
     this.mobileMenu.classList.toggle(this.activeClass)
     this.animateLinks()
